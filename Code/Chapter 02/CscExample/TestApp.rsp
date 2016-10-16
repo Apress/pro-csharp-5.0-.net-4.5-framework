@@ -1,0 +1,10 @@
+# This is the response file
+# for the TestApp.exe example
+# of Chapter 2.
+
+ 
+# External assembly references.
+/r:System.Windows.Forms.dll
+
+# output and files to compile (using wildcard syntax).
+/target:exe /out:TestApp.exe *.cs

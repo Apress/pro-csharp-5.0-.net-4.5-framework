@@ -1,0 +1,4 @@
+G:\My Books\C# Book\C# and the .NET Platform Sixth Ed\Code\Chapter 21\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+G:\My Books\C# Book\C# and the .NET Platform Sixth Ed\Code\Chapter 21\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+G:\My Books\C# Book\C# and the .NET Platform Sixth Ed\Code\Chapter 21\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+G:\My Books\C# Book\C# and the .NET Platform Sixth Ed\Code\Chapter 21\AutoLotDAL\obj\Debug\AutoLotDAL.pdb

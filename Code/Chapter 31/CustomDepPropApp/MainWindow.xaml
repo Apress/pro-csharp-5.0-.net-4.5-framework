@@ -1,0 +1,26 @@
+﻿<Window x:Class="CustomDepPropApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:myCtrls="clr-namespace:CustomDepPropApp"
+        Title="Simple Dependency Property App" Height="150" Width="360"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <myCtrls:ShowNumberControl x:Name="myShowNumberCtrl" 
+                                   CurrentNumber="100">
+            
+            <myCtrls:ShowNumberControl.Triggers>
+                <EventTrigger RoutedEvent = "myCtrls:ShowNumberControl.Loaded">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard TargetProperty = "CurrentNumber">
+                                <Int32Animation From = "100" To = "200" 
+                                                Duration = "0:0:10" AutoReverse="True"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </myCtrls:ShowNumberControl.Triggers>
+            
+        </myCtrls:ShowNumberControl>
+    </StackPanel>
+</Window>

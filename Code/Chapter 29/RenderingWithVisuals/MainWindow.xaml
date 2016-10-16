@@ -1,0 +1,11 @@
+﻿<Window x:Class="RenderingWithVisuals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="clr-namespace:RenderingWithVisuals"
+        Title="Fun with the Visual Layer" Height="350" Width="525" 
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <StackPanel Background="AliceBlue" Name="myStackPanel">
+        <Image Name="myImage" Height="80"/>
+        <custom:CustomVisualFrameworkElement/>
+    </StackPanel>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Application x:Class="ObjectResourcesApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    
+    <!-- Bring in the logical resources 
+       from the MyBrushes.xaml file. -->
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--The syntax is /NameOfAssembly;Component/NameOfXamlFileInAssembly.xaml -->
+                <ResourceDictionary Source = "/MyBrushesLibrary;Component/MyBrushes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

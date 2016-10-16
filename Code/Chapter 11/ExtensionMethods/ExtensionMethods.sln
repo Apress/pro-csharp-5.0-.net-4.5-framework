@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods.csproj", "{D7D9C0A0-5A41-4929-960E-3D9D3EA7954A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D9C0A0-5A41-4929-960E-3D9D3EA7954A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D9C0A0-5A41-4929-960E-3D9D3EA7954A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D9C0A0-5A41-4929-960E-3D9D3EA7954A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D9C0A0-5A41-4929-960E-3D9D3EA7954A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

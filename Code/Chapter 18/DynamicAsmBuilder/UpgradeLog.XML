@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DynamicAsmBuilder">
+</Property><Property Name="Solution File" Value="H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\DynamicAsmBuilder.sln">
+</Property><Property Name="User Options File" Value="H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\DynamicAsmBuilder.suo">
+</Property><Property Name="Date" Value="Tuesday, January 05, 2010">
+</Property><Property Name="Time" Value="20:36 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DynamicAsmBuilder.sln" Description="File successfully backed up as H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\Backup\DynamicAsmBuilder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DynamicAsmBuilder.suo" Description="File successfully backed up as H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\Backup\DynamicAsmBuilder.suo">
+</Event><Event ErrorLevel="0" Project="DynamicAsmBuilder" Source="DynamicAsmBuilder.csproj" Description="Project file successfully backed up as H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\Backup\DynamicAsmBuilder.csproj">
+</Event><Event ErrorLevel="0" Project="DynamicAsmBuilder" Source="DynamicAsmBuilder.csproj.user" Description="Project user file successfully backed up as H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\Backup\DynamicAsmBuilder.csproj.user">
+</Event><Event ErrorLevel="0" Project="DynamicAsmBuilder" Source="Program.cs" Description="File successfully backed up as H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="DynamicAsmBuilder" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as H:\My Books\C# Book\C# and the .NET Platform 5th ed\DynamicAsmBuilder\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DynamicAsmBuilder" Source="DynamicAsmBuilder.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DynamicAsmBuilder" Source="DynamicAsmBuilder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DynamicAsmBuilder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DynamicAsmBuilder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DynamicAsmBuilder" Source="DynamicAsmBuilder.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFRoutedEvents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fun with Routed Events" Height="214" 
+        Width="360" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Name="btnClickMe" Height="75" Width = "250" Click ="btnClickMe_Clicked">
+            <StackPanel Orientation ="Horizontal">
+                <Label Height="50" FontSize ="20">Fancy Button!</Label>
+                <Canvas Height ="50" Width ="100" >
+                    <Ellipse Name = "outerEllipse" Fill ="Green" Height ="25"
+                      MouseDown ="outerEllipse_MouseDown"
+                      PreviewMouseDown ="outerEllipse_PreviewMouseDown"
+                      Width ="50" Cursor="Hand" Canvas.Left="25" Canvas.Top="12"/>
+                    <Ellipse Name = "innerEllipse" Fill ="Yellow" Height = "15" Width ="36"
+                             Canvas.Top="17" Canvas.Left="32"/>
+                </Canvas>
+            </StackPanel>
+          </Button>
+    </Grid>
+</Window>
